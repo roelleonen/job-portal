@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header">
+        
+        <section class="flex">
+
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <a href="index.html" class="logo"><i class="fas fa-briefcase"></i>Find your Job now</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="jobs.html">All Jobs</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html">Account</a>
+        </nav>
+
+            <a href="#" class="btn" style="margin-top: 0;">Post Job</a>
+
+        </section>
+    </header>
+
+
+
+    <div class="section-title">Contact Us</div>
+
+    <section class="contact">
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <a href="+639675525444">+63-968-534-0012</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:ncab923@gmail.com">ncab923@gmail.com</a>
+            </div>            
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="#">flat no. 119, Quezon City, Manila</a>
+            </div>
+
+        </div>
+
+        <form action="" method="post">
+            <h3>Drop your Message</h3>
+            <div class="flex">
+                <div class="box">
+                    <p>Name <span>*</span></p>
+                    <input type="text" name="name" required maxlength="50" placeholder="Your Name" class="input">
+                </div>
+                <div class="box">
+                    <p>Email <span>*</span></p>
+                    <input type="text" name="name" required maxlength="50" placeholder="Your Email" class="input">
+                </div>
+                <div class="box">
+                    <p>Number <span>*</span></p>
+                    <input type="text" name="name" required min="0" max="999999" maxlength="60" placeholder="Your Name" class="input">
+                </div>
+                <div class="box">
+                    <p>Role <span>*</span></p>
+                    <select name="role" required class="input">
+                        <option value="employee">Job Seeker (Employee)</option>
+                        <option value="employer">Job Seeker (Employer)</option>
+                    </select>
+                </div>
+            </div>
+            <p>Message <span>*</span></p>
+            <textarea name="message" class="input" required maxlength="1000" placeholder="Message" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" name="send" class="btn">
+        </form>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html"><i class="fas fa-angle-right"></i>Home</a>
+                <a href="about.html"><i class="fas fa-angle-right"></i>About Us</a>
+                <a href="jobs.html"><i class="fas fa-angle-right"></i>Jobs</a>
+                <a href="contact.html"><i class="fas fa-angle-right"></i>Contacts</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Filter Search</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-angle-right"></i>Account</a>
+                <a href="login.html"><i class="fas fa-angle-right"></i>Login</a>
+                <a href="register.html"><i class="fas fa-angle-right"></i>Register</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Post Job</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Dashboard</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i>Linked In</a>
+                <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            </div>
+
+        </section>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
